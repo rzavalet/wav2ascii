@@ -17,6 +17,7 @@ One of its limitations is that it can only store an audio file of about 6.6 hrs,
 
 ## To build:
 $ cd src
+
 $ gcc  parser.c -o parser -ggdb -lm
 
 ## To execute:
