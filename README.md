@@ -15,11 +15,11 @@ Wav format file is usually used with PCM[1][2]. This means that this audio forma
 
 One of its limitations is that it can only store an audio file of about 6.6 hrs, i.e. 4GB of disc space. Why? A Wav file has a field in its header which stores its length. This field is 32 bits[4] wide. That is 2^32 [bits]/2^30[bits/GB] = 2^2[GB] = 4[GB].
 
-To build:
+## To build:
 $ cd src
 $ gcc  parser.c -o parser -ggdb -lm
 
-To execute:
+## To execute:
 $ ./parser ../sample_wav/11k16bitpcm.wav out
 
 
